@@ -22,7 +22,7 @@ h1 {
 }
 
 img {
-  border-radius: 1em;
+  border-radius: 0.5rem;
   max-width: 100%;
 }
 
@@ -38,4 +38,27 @@ a {
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem;
+}
+
+ul.image-gallery {
+  padding: 0.25rem;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  li {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: 0.25rem;
+    picture {
+      width: 100%;
+      height: auto;
+    }
+  }
 }

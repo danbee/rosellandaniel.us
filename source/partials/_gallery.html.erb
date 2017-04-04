@@ -1,0 +1,5 @@
+<ul class="image-gallery">
+  <% images.each do |image| %>
+    <%= partial "partials/gallery_image", locals: { image: image } %>
+  <% end %>
+</ul>

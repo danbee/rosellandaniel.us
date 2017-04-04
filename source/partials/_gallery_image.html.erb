@@ -1,0 +1,9 @@
+<li>
+  <picture>
+    <source srcset="<%= image_path "gallery/#{image}", resize_to: 200 %>" media="(min-width: 100px) and (max-width: 199px)">
+    <source srcset="<%= image_path "gallery/#{image}", resize_to: 400 %>" media="(min-width: 200px) and (max-width: 399px)">
+    <source srcset="<%= image_path "gallery/#{image}", resize_to: 800 %>" media="(min-width: 400px) and (max-width: 799px)">
+    <source srcset="<%= image_path "gallery/#{image}", resize_to: 1200 %>" media="(min-width: 800px)">
+    <%= image_tag "gallery/#{image}", resize_to: 400 %>
+  </picture>
+</li>

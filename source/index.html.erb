@@ -2,9 +2,6 @@
 title: Rosella &amp; Daniel
 ---
 
-<picture>
-  <source srcset="/images/us.jpg, /images/us2x.jpg 2x">
-  <img src="/images/us.jpg">
-</picture>
-
 <h1>Rosella &amp; Daniel</h1>
+
+<%= partial "partials/gallery.html", locals: { images: data.gallery.images } %>

@@ -7,6 +7,8 @@ end
 
 activate :middleman_simple_thumbnailer
 
+activate :livereload
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

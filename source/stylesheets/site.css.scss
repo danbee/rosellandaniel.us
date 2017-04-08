@@ -1,3 +1,7 @@
+@import "./variables";
+@import "./grids";
+@import "./layout";
+
 @import "bourbon";
 @import "neat";
 
@@ -5,7 +9,7 @@ body {
   background-color: #ffffff;
   color: #333;
   font-family: $georgia;
-  padding: 8vh 1rem 4vh;
+  padding: 2vh 2vw 2vh;
   text-align: center;
 }
 
@@ -35,27 +39,16 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
-
-$neat-grid: (gutter: 10px);
-
-$small-image-grid: (media: 400px);
-$medium-image-grid: (media: 680px);
-$large-image-grid: (media: 960px);
-$wide-image-grid: (media: 1400px);
-
 ul.image-gallery {
   @include grid-container;
+  @include container;
   line-height: 0;
   list-style: none;
   padding: 0;
 
   li {
     @include grid-column(12);
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 
     @include grid-media($small-image-grid) {
       @include grid-column(6);
@@ -67,10 +60,6 @@ ul.image-gallery {
 
     @include grid-media($large-image-grid) {
       @include grid-column(3);
-    }
-
-    @include grid-media($wide-image-grid) {
-      @include grid-column(2);
     }
   }
 }

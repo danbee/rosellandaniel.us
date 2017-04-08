@@ -43,18 +43,11 @@ a {
 ul.image-gallery {
   padding: 0.25rem;
   font-size: 0;
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  display: -webkit-box;
   display: flex;
   li {
-    -webkit-box-flex: auto;
-    -ms-flex: auto;
     flex: auto;
-    width: 200px;
+    width: 20%;
     margin: 0.25rem;
     picture {
       width: 100%;

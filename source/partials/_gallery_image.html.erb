@@ -3,7 +3,9 @@
     <source srcset="<%= image_path "gallery/#{image}", resize_to: 200 %> 200w,
                     <%= image_path "gallery/#{image}", resize_to: 400 %> 400w,
                     <%= image_path "gallery/#{image}", resize_to: 800 %> 800w,
-                    <%= image_path "gallery/#{image}", resize_to: 1200 %> 1200w">
+                    <%= image_path "gallery/#{image}", resize_to: 1200 %> 1200w"
+            sizes="100vw, (min-width: 400px) 50vw, (min-width: 680px) 33vw,
+                   (min-width: 960px) 25vw, (min-width: 1400px) 16vw">
     <%= image_tag "gallery/#{image}", resize_to: 400 %>
   </picture>
 </li>

@@ -1,10 +1,10 @@
+@import "bourbon";
+@import "neat";
+
 body {
   background-color: #ffffff;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: $georgia;
   padding: 8vh 1rem 4vh;
   text-align: center;
 }
@@ -40,18 +40,37 @@ a {
   width: 10rem;
 }
 
+$neat-grid: (gutter: 10px);
+
+$small-image-grid: (media: 400px);
+$medium-image-grid: (media: 680px);
+$large-image-grid: (media: 960px);
+$wide-image-grid: (media: 1400px);
+
 ul.image-gallery {
-  padding: 0.25rem;
-  font-size: 0;
-  flex-flow: row wrap;
-  display: flex;
+  @include grid-container;
+  line-height: 0;
+  list-style: none;
+  padding: 0;
+
   li {
-    flex: auto;
-    width: 20%;
-    margin: 0.25rem;
-    picture {
-      width: 100%;
-      height: auto;
+    @include grid-column(12);
+    margin-bottom: 10px;
+
+    @include grid-media($small-image-grid) {
+      @include grid-column(6);
+    }
+
+    @include grid-media($medium-image-grid) {
+      @include grid-column(4);
+    }
+
+    @include grid-media($large-image-grid) {
+      @include grid-column(3);
+    }
+
+    @include grid-media($wide-image-grid) {
+      @include grid-column(2);
     }
   }
 }

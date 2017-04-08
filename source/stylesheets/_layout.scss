@@ -2,3 +2,10 @@
   max-width: $container-width;
   margin: 0 auto;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

@@ -8,13 +8,13 @@
 body {
   background-color: #ffffff;
   color: #333;
-  font-family: $georgia;
+  font-family: "Fira Sans", sans-serif;
   padding: 2vh 2vw 2vh;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-weight: normal;
   font-size: 16vw;
 }
@@ -60,6 +60,25 @@ ul.image-gallery {
 
     @include grid-media($large-image-grid) {
       @include grid-column(3);
+    }
+  }
+}
+
+footer {
+  @include container;
+  padding: 0.5rem;
+
+  p {
+    border-top: 1px solid #999;
+    opacity: 0.5;
+    padding: 0.5rem;
+  }
+
+  .heart {
+    height: 1rem;
+    vertical-align: middle;
+    path {
+      fill: #cc0000;
     }
   }
 }

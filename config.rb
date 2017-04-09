@@ -35,6 +35,16 @@ page "/*.txt", layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
+helpers do
+  def srcset(image, sizes)
+    sizes.map { |size| srcset_entry(image, size) }.join(", ")
+  end
+
+  def srcset_entry(image, size)
+    "#{image_path(image, resize_to: size)} #{size}w"
+  end
+end
+
 # helpers do
 #   def some_helper
 #     'Helping'

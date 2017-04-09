@@ -1,11 +1,5 @@
 <li>
-  <picture>
-    <source srcset="<%= image_path "gallery/#{image}", resize_to: 200 %> 200w,
-                    <%= image_path "gallery/#{image}", resize_to: 400 %> 400w,
-                    <%= image_path "gallery/#{image}", resize_to: 800 %> 800w,
-                    <%= image_path "gallery/#{image}", resize_to: 1200 %> 1200w"
-            sizes="(min-width: 1350px) 20rem, (min-width: 960px) 25vw,
-                   (min-width: 680px) 33vw, (min-width: 400px) 50vw, 100vw">
-    <%= image_tag "gallery/#{image}", resize_to: 400 %>
-  </picture>
+  <img src="<%= image_path "gallery/#{image}", resize_to: 400 %>"
+       srcset="<%= srcset("gallery/#{image}", [200, 400, 800, 1200]) %>"
+       sizes="(min-width: 960px) 25vw, (min-width: 680px) 33vw, (min-width: 400px) 50vw, 100vw">
 </li>

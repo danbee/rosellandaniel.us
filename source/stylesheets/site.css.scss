@@ -41,11 +41,6 @@ ul.image-gallery {
   list-style: none;
   padding: 0;
 
-  img {
-    border-radius: 0.5rem;
-    max-width: 100%;
-  }
-
   li {
     @include grid-column(12);
     margin-bottom: 0.5rem;
@@ -61,6 +56,11 @@ ul.image-gallery {
     @include grid-media($large-image-grid) {
       @include grid-column(3);
     }
+  }
+
+  img {
+    border-radius: 0.5rem;
+    max-width: 100%;
   }
 }
 

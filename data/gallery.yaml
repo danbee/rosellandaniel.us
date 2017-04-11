@@ -1,13 +1,25 @@
 images:
-- 20160719-202451.jpg
-- 20160827-142114.jpg
-- 20160929-163705.jpg
-- 20161002-172043.jpg
-- 20161124-165350.jpg
-- 20161125-230937.jpg
-- 20161226-121714.jpg
-- 20161231-231001.jpg
-- 20170101-194258.jpg
-- 20170218-145440.jpg
-- 20170312-203746.jpg
-- 20170317-103233.jpg
+  - filename: 20160719-202451.jpg
+    title: "New York - Top of the Rock"
+  - filename: 20160827-142114.jpg
+    title: "Boston - Boston Pier"
+  - filename: 20160929-163705.jpg
+    title: "London - Millenium Bridge"
+  - filename: 20161002-172043.jpg
+    title: "Cotswolds - Broadway Tower"
+  - filename: 20161124-165350.jpg
+    title: "København - Højbro Plads"
+  - filename: 20161125-230937.jpg
+    title: "København - Tivoli Gardens"
+  - filename: 20161226-121714.jpg
+    title: "Zapata, TX - Las Balitas Ranch"
+  - filename: 20161231-231001.jpg
+    title: "New York - New Years Eve!"
+  - filename: 20170101-194258.jpg
+    title: "New York - Time Warner Center"
+  - filename: 20170218-145440.jpg
+    title: "Wiltshire - Stonehenge"
+  - filename: 20170312-203746.jpg
+    title: "London - Tower Bridge"
+  - filename: 20170317-103233.jpg
+    title: "Ireland - Ring of Kerry"

@@ -1,0 +1,21 @@
+.lightbox {
+  background: black;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  img {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  &:target {
+    display: flex;
+    outline: none;
+  }
+}

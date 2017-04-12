@@ -9,3 +9,7 @@
     <% end %>
   </ul>
 </section>
+
+<% images.each do |image| %>
+  <%= partial "partials/lightbox", locals: { image: image } %>
+<% end %>

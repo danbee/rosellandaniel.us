@@ -1,3 +1,9 @@
-<a class="lightbox" href="#" id="<%= parameterize(image.title) %>">
-  <%= image_tag "gallery/#{image.filename}" %>
+<style>
+  #<%= parameterize(image.title) %> {
+    background-image: url(<%= image_path "gallery/#{image.filename}" %>);
+  }
+</style>
+
+<a class="lightbox" href="#_" id="<%= parameterize(image.title) %>"
+  style="">
 </a>

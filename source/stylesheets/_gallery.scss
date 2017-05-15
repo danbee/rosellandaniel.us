@@ -6,12 +6,8 @@ ul.image-gallery {
   padding: 0;
 
   li {
-    @include grid-column(12);
+    @include grid-column(6);
     margin-bottom: 0.5rem;
-
-    @include grid-media($small-image-grid) {
-      @include grid-column(6);
-    }
 
     @include grid-media($medium-image-grid) {
       @include grid-column(4);

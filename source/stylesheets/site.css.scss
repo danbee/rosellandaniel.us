@@ -80,35 +80,6 @@ section {
   }
 }
 
-ul.image-gallery {
-  @include grid-container;
-  @include gallery-container;
-  line-height: 0;
-  list-style: none;
-
-  li {
-    @include grid-column(12);
-    margin-bottom: 0.5rem;
-
-    @include grid-media($small-image-grid) {
-      @include grid-column(6);
-    }
-
-    @include grid-media($medium-image-grid) {
-      @include grid-column(4);
-    }
-
-    @include grid-media($large-image-grid) {
-      @include grid-column(3);
-    }
-  }
-
-  img {
-    border-radius: 0.5rem;
-    max-width: 100%;
-  }
-}
-
 footer {
   @include container;
   text-align: center;

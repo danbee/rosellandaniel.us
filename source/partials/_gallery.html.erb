@@ -1,8 +1,14 @@
-<ul class="image-gallery">
-  <% images.each do |image| %>
-    <%= partial "partials/gallery_image", locals: { image: image } %>
-  <% end %>
-</ul>
+<section class="gallery">
+  <header>
+    <h2>Photos</h2>
+  </header>
+
+  <ul class="image-gallery">
+    <% images.each do |image| %>
+      <%= partial "partials/gallery_image", locals: { image: image } %>
+    <% end %>
+  </ul>
+</section>
 
 <% images.each do |image| %>
   <%= partial "partials/lightbox", locals: { image: image } %>

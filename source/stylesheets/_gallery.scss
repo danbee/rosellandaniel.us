@@ -1,9 +1,8 @@
 ul.image-gallery {
   @include grid-container;
-  @include container;
+  @include gallery-container;
   line-height: 0;
   list-style: none;
-  padding: 0;
 
   li {
     @include grid-column(6);

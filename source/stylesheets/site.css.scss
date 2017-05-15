@@ -9,17 +9,40 @@ body {
   background-color: #ffffff;
   color: #333;
   font-family: "Fira Sans", sans-serif;
-  padding: 2vh 2vw 2vh;
-  text-align: center;
+  margin: 0;
+}
+
+header.main {
+  background: black;
+  color: white;
 }
 
 h1 {
   font-family: "Amatic SC", cursive;
   font-weight: normal;
-  font-size: 16vw;
+  font-size: 14vw;
+  text-align: center;
 }
 
-@media (min-width: 600px) {
+header.main {
+  background-image: url(/images/header-image.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 5em 0;
+
+  h1 {
+    margin: 0;
+    text-shadow: 0 0 10px black;
+  }
+}
+
+h2 {
+  font-family: "Amatic SC", cursive;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 650px) {
   h1 {
     font-size: 6rem;
   }
@@ -34,12 +57,31 @@ a {
   }
 }
 
+section {
+  header {
+    @include grid-container;
+    @include container;
+
+    h2 {
+      @include grid-column(12);
+    }
+  }
+
+  main {
+    @include grid-container;
+    @include container;
+
+    p {
+      @include grid-column(12);
+    }
+  }
+}
+
 ul.image-gallery {
   @include grid-container;
-  @include container;
+  @include gallery-container;
   line-height: 0;
   list-style: none;
-  padding: 0;
 
   li {
     @include grid-column(12);
@@ -66,7 +108,7 @@ ul.image-gallery {
 
 footer {
   @include container;
-  padding: 0.5rem;
+  text-align: center;
 
   p {
     border-top: 1px solid #999;

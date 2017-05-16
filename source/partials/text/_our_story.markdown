@@ -1,6 +1,6 @@
 Daniel lives in London and is a software developer at thoughtbot. Rosella lives
 in New York and runs the alumni relations office at Teachers College. This
-summer, Daniel was temporarily working and living in NYC, and when they met an
+summer, Daniel was on an extended stay in NYC, and when they met an
 instant connection sparked.
 
 When Daniel returned to London in August, they expected he'd be moving back

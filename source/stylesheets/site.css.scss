@@ -20,6 +20,10 @@ body {
   margin: 0;
 }
 
+p {
+  line-height: 1.4;
+}
+
 @media (min-width: 640px) {
   html {
     font-size: 100%;

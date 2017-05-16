@@ -32,6 +32,18 @@ body {
   }
 }
 
+@media (min-width: 1366px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media (min-width: 1750px) {
+  html {
+    font-size: 150%;
+  }
+}
+
 h1 {
   font-family: "Amatic SC", cursive;
   font-weight: normal;

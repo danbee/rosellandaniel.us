@@ -1,6 +1,13 @@
 @mixin container {
   max-width: $container-width;
   margin: 0 auto;
+  padding: 0 2vw;
+}
+
+@mixin gallery-container {
+  max-width: $gallery-container-width;
+  margin: 0 auto;
+  padding: 0 2vw;
 }
 
 html {

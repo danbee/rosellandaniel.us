@@ -1,0 +1,19 @@
+section {
+  header {
+    @include grid-column(12);
+  }
+
+  main {
+    @include grid-column(12);
+  }
+}
+
+section.getting-married {
+  main {
+    text-align: center;
+
+    div {
+      @include grid-column(6);
+    }
+  }
+}

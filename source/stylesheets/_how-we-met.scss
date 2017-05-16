@@ -1,0 +1,64 @@
+.tinder-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  .tinder-rosella,
+  .tinder-daniel {
+    padding: 1rem;
+    width: 65%;
+  }
+
+  .tinder-rosella {
+    transform: rotate(5deg);
+  }
+
+  .tinder-daniel {
+    transform: rotate(-5deg);
+  }
+
+  .its-a-match {
+    padding: 5%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 541px) {
+  .tinder-container {
+    .its-a-match {
+      transform: translateY(-3rem);
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .tinder-container {
+    padding-top: 20vw;
+    position: relative;
+
+    .tinder-rosella {
+      margin-left: 2vw;
+      transform: rotate(-5deg);
+    }
+
+    .tinder-daniel {
+      margin-right: 2vw;
+      transform: rotate(5deg);
+    }
+
+    .its-a-match {
+      left: 0;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      width: 100%;
+
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+}

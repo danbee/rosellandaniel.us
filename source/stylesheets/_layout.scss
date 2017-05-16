@@ -12,10 +12,47 @@
 
 html {
   box-sizing: border-box;
+  font-size: 90%;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  font-family: $base-font-family;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 1100px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media (min-width: 1366px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media (min-width: 1750px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+.container {
+  @include grid-container;
+  @include container;
 }

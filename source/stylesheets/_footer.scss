@@ -1,0 +1,17 @@
+footer {
+  p {
+    @include grid-column(12);
+    border-top: 1px solid #999;
+    opacity: 0.5;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .heart {
+    height: 1rem;
+    vertical-align: middle;
+    path {
+      fill: #cc0000;
+    }
+  }
+}

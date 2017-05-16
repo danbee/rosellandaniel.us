@@ -124,6 +124,71 @@ section.getting-married {
   }
 }
 
+.tinder-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .tinder-rosella,
+  .tinder-daniel {
+    padding: 1rem;
+    width: 65%;
+  }
+
+  .tinder-rosella {
+    transform: rotate(5deg);
+  }
+
+  .tinder-daniel {
+    transform: rotate(-5deg);
+  }
+
+  .its-a-match {
+    padding: 5%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 541px) {
+  .tinder-container {
+    .its-a-match {
+      transform: translateY(-3rem);
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .tinder-container {
+    position: relative;
+    padding-top: 20vw;
+
+    .tinder-rosella {
+      transform: rotate(-5deg);
+      margin-left: 2vw;
+    }
+
+    .tinder-daniel {
+      transform: rotate(5deg);
+      margin-right: 2vw;
+    }
+
+    .its-a-match {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+}
+
 footer {
   p {
     @include grid-column(12);

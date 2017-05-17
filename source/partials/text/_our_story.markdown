@@ -20,12 +20,12 @@ five hour time difference felt unbearable. However, a few more international
 romantic rendezvous helped. Thank goodness these two share the same goal of
 collecting passport stamps!
 
-At the end of tough goodbye in a Bangkok airport in early May, they decided
+At the end of a tough goodbye in a Bangkok airport in early May, they decided
 that they had had enough of the transatlantic challenges, so they vowed to do
-whatever it takes to be together, as soon as possible. Including eloping!
-Daniel was already planning to visit over Memorial Day weekend to see his
-fiancée and celebrate her nephew's first birthday in San Antonio. So Rosella
-and Daniel are getting married on May 28 at her parents house in Helotes, TX!
+whatever it takes to be together, as soon as possible. Including eloping! Daniel
+was already planning to visit over Memorial Day weekend to see his fiancée and
+celebrate her nephew's first birthday in San Antonio. So Rosella and Daniel are
+getting married on May 28 at her parents house in Helotes, TX!
 
 But this isn't the end of their global adventure. Rosella will be
 moving to London later this summer to join her groom, and they'll be there about

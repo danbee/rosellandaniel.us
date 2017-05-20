@@ -2,36 +2,95 @@ images:
   - filename: 20160719-202451.jpg
     title: "Top of the Rock, NYC"
     taken_at: "July 19th, 2016"
+
   - filename: 20160827-142114.jpg
     title: "Boston Pier, Boston"
     taken_at: "August 27th, 2016"
+
   - filename: 20160929-163705.jpg
     title: "Millenium Bridge, London"
     taken_at: "September 29th, 2016"
+
   - filename: 20161002-172043.jpg
     title: "Broadway Tower, The Cotswolds"
     taken_at: "October 2nd, 2016"
+
   - filename: 20161124-165350.jpg
     title: "Højbro Plads, København"
     taken_at: "November 24th, 2016"
+
   - filename: 20161125-230937.jpg
     title: "Tivoli Gardens, København"
     taken_at: "November 25th, 2016"
+
+  - filename: 20161225-232909.jpg
+    title: "The Alamo, San Antonio, TX"
+    taken_at: "December 25th, 2016"
+
   - filename: 20161226-121714.jpg
     title: "Las Ballitas Ranch, Zapata, TX"
     taken_at: "December 26th, 2016"
+
   - filename: 20161231-231001.jpg
     title: "New Years Eve, NYC"
     taken_at: "December 31st, 2016"
+
   - filename: 20170101-194258.jpg
     title: "Time Warner Center, NYC"
     taken_at: "January 1st, 2017"
+
   - filename: 20170218-145440.jpg
     title: "Stonehenge, Wiltshire"
     taken_at: "February 18th, 2017"
+
+  - filename: 20170220-192752.jpg
+    title: "Noel Coward Theatre, London"
+    taken_at: "February 20th, 2017"
+
+  - filename: 20170221-011026.jpg
+    title: "The Exhibitionist Hotel, London"
+    taken_at: "February 21th, 2017"
+
+  - filename: 20170221-161358.jpg
+    title: "Tower Bridge, London"
+    taken_at: "February 21th, 2017"
+
   - filename: 20170312-203746.jpg
     title: "Tower Bridge, London"
     taken_at: "March 12th, 2017"
+
+  - filename: 20170316-175610.jpg
+    title: "Killarney National Park, Ireland"
+    taken_at: "March 16th, 2017"
+
   - filename: 20170317-103233.jpg
     title: "Ring of Kerry, Ireland"
     taken_at: "March 17th, 2017"
+
+  - filename: 20170317-200708.jpg
+    title: "Town Hall, Ennis, Ireland"
+    taken_at: "March 17th, 2017"
+
+  - filename: 20170319-125611.jpg
+    title: "The plane back to Heathrow, Shannon Airport, Ireland"
+    taken_at: "March 19th, 2017"
+
+  - filename: 20170424-135957.jpg
+    title: "The Royal Palace and Temples, Bangkok"
+    taken_at: "April 24th, 2017"
+
+  - filename: 20170427-125413.jpg
+    title: "Chao Phraya River, Bangkok"
+    taken_at: "April 27th, 2017"
+
+  - filename: 20170428-100041.jpg
+    title: "The Peak, Crown Lanta Resort, Koh Lanta, Thailand"
+    taken_at: "April 28th, 2017"
+
+  - filename: 20170429-183116.jpg
+    title: "Reggae Bar, Crown Lanta Resort, Koh Lanta, Thailand"
+    taken_at: "April 29th, 2017"
+
+  - filename: 20170430-083708.jpg
+    title: "On a boat to Koh Rok, Thailand"
+    taken_at: "April 30th, 2017"

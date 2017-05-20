@@ -38,6 +38,10 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
+  def image_slug(image)
+    "#{parameterize(image.title)}-#{image.filename[/[0-9\-]+/]}"
+  end
+
   def parameterize(string)
     Iconv.conv('ascii//ignore//translit', 'utf-8', string)
       .gsub(/(\W+)/, "-").downcase

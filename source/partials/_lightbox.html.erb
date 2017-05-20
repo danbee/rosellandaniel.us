@@ -1,10 +1,10 @@
 <style>
-  #<%= parameterize(image.title) %> .lightbox-image {
+  #<%= image_slug(image) %> .lightbox-image {
     background-image: url(<%= image_path "gallery/#{image.filename}" %>);
   }
 </style>
 
-<div class="lightbox" id="<%= parameterize(image.title) %>">
+<div class="lightbox" id="<%= image_slug(image) %>">
   <a class="lightbox-image" href="#_"></a>
   <div class="lightbox-caption"><span class="lightbox-title"><%= image.title %></span> &mdash; <span class="lightbox-date"><%= image.taken_at %></span></div>
 </div>

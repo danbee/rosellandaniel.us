@@ -1,8 +1,5 @@
 .lightbox {
   background: black;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
   display: none;
   height: 100%;
   left: 0;
@@ -11,14 +8,25 @@
   width: 100%;
   z-index: 999;
 
-  img {
-    margin: auto;
-    max-height: 100%;
-    max-width: 100%;
-  }
-
   &:target {
     display: flex;
+    flex-direction: column;
     outline: none;
   }
+}
+
+.lightbox-image {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.lightbox-caption {
+  @include clearfix;
+  font-size: 0.8rem;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
 }

@@ -1,8 +1,8 @@
 <li>
   <a href="#<%= parameterize(image.title) %>">
     <img src="<%= image_path "gallery/#{image.filename}", resize_to: 400 %>"
-        srcset="<%= srcset("gallery/#{image.filename}", [200, 400, 800, 1200]) %>"
-        sizes="(min-width: 960px) 25vw, (min-width: 576px) 33vw, 50vw"
-        alt="<%= image.title %>">
+         srcset="<%= srcset("gallery/#{image.filename}", [200, 400, 800, 1200]) %>"
+         sizes="(min-width: 960px) 25vw, (min-width: 576px) 33vw, 50vw"
+         alt="<%= image.title %>">
   </a>
 </li>

@@ -1,5 +1,5 @@
 .lightbox {
-  background: black;
+  background: #111;
   display: none;
   height: 100%;
   left: 0;
@@ -25,6 +25,7 @@
 
 .lightbox-caption {
   @include clearfix;
+  background: black;
   font-size: 0.8rem;
   color: white;
   padding: 0.25rem 0.5rem;

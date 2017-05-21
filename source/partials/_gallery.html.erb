@@ -12,6 +12,6 @@
   </ul>
 </section>
 
-<% images.each do |image| %>
-  <%= partial "partials/lightbox", locals: { image: image } %>
+<% each_with_next_prev(images) do |prev_image, image, next_image| %>
+  <%= partial "partials/lightbox", locals: { image: image, prev_image: prev_image, next_image: next_image } %>
 <% end %>

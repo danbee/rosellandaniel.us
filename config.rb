@@ -37,25 +37,6 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-helpers do
-  def image_slug(image)
-    "#{parameterize(image.title)}-#{image.filename[/[0-9\-]+/]}"
-  end
-
-  def parameterize(string)
-    Iconv.conv('ascii//ignore//translit', 'utf-8', string)
-      .gsub(/(\W+)/, "-").downcase
-  end
-
-  def srcset(image, sizes)
-    sizes.map { |size| srcset_entry(image, size) }.join(", ")
-  end
-
-  def srcset_entry(image, size)
-    "#{image_path(image, resize_to: size)} #{size}w"
-  end
-end
-
 # helpers do
 #   def some_helper
 #     'Helping'

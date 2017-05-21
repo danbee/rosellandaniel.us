@@ -5,6 +5,10 @@
 </style>
 
 <div class="lightbox" id="<%= image_slug(image) %>">
+  <a class="lightbox-prev" href="#<%= image_slug(prev_image) %>">⬅</a>
+  <a class="lightbox-next" href="#<%= image_slug(next_image) %>">➡</a>
   <a class="lightbox-image" href="#_"></a>
-  <div class="lightbox-caption"><span class="lightbox-title"><%= image.title %></span> &mdash; <span class="lightbox-date"><%= image.taken_at %></span></div>
+  <div class="lightbox-caption">
+    <span class="lightbox-title"><%= image.title %></span> &mdash; <span class="lightbox-date"><%= image.taken_at %></span>
+  </div>
 </div>

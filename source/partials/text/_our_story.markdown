@@ -23,6 +23,8 @@ that they had had enough of the transatlantic challenges, so they vowed to do
 whatever it would take to be together, as soon as possible. Including eloping! Daniel
 was already planning to visit over Memorial Day weekend to see his fiancée and
 celebrate her nephew's first birthday in San Antonio. So Rosella and Daniel decided to 
-get married on May 28 in Helotes, TX. (And they only gave their families 12 days notice!) Despite the short notice---and with the help of their amazing family---they pulled off quite the fiesta to celebrate their love. 
+get married---and they only gave their families 12 days notice! 
+
+Rosella and Daniel said "I Do!" on <strong> May 28, 2017 </strong> in <strong> Helotes, TX </strong> at an intimate reception at Pedrotti Ranch. And despite the short notice---and with the help of their amazing family---they pulled off quite the fiesta to celebrate their love!  
 
 At the wedding, it was still unclear how long it would be before the bride and groom could actually live in the same country together or on which continent their first address might be. But once they were married, (and after a meeting with their immigration attorney) they realized that Daniel could stay in New York and that they could put an end to the long distances between them! So Daniel and Rosella can be found, for now, on the Upper West Side of Manhattan. Stay tuned for tales from their ongoing adventures!

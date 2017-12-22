@@ -7,10 +7,10 @@
 header.main {
   @include header-image("/images/header-image-640.jpg");
   background-color: black;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   color: white;
-  padding: 12vw 0;
+  padding: 4vw 0 20vw;
   position: relative;
 
   h1 {

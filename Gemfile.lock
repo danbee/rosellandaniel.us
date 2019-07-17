@@ -89,7 +89,7 @@ GEM
     middleman-simple-thumbnailer (1.2.0)
       middleman-core (~> 4)
       mini_magick (~> 4)
-    mini_magick (4.7.0)
+    mini_magick (4.9.4)
     minitest (5.10.2)
     neat (2.1.0)
       sass (~> 3.4)
